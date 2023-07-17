@@ -16,3 +16,8 @@ def sort(a):
                 a[i],a[j]=a[j],a[i]
     return a
 print(sort([1,5,8,9,2,3,4]))
+# recursion
+def rec(a):
+    for 
+    return
+print(rec())
