@@ -9,3 +9,10 @@ def prime(a):
         print(f'{a} it is prime')
 
 prime(3)
+def sort(a):
+    for i in range(len(a)):
+        for j in range(i+1,len(a)):
+            if a[i]>a[j]:
+                a[i],a[j]=a[j],a[i]
+    return a
+print(sort([1,5,8,9,2,3,4]))
